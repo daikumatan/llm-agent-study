@@ -105,3 +105,14 @@ cat << EOF > .env
 OPENAI_API_KEY="<OpenAIのAPI KEYを入力>"
 EOF
 ```
+
+
+## 3. LLM Agent のHands-On
+
+### 3.1. `agent_handson.ipynb`の起動
+
+`agent_handson.ipynb`を起動し、ipnynbのカーネルとしてpoetryで作成したpython環境を指定します。
+
+### 3.2. Hands-Onの開始
+
+クエリに応じて、足し算や掛け算の関数が呼び出されるLLM Agentとなっています。`agent_handson.ipynb`の各セルを実行し、LLM Agentが動く様子を確認してください

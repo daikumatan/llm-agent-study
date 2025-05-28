@@ -1,8 +1,0 @@
-// LangGraph Conversation Flow
-digraph {
-	generate_response [label=generate_response]
-	node [shape=doublecircle]
-	start [label="開始"]
-	node [shape=ellipse]
-	start -> generate_response
-}
